@@ -1,5 +1,6 @@
 import { dailyList } from "@/lib/dummydata";
 import Link from "next/link";
+import MyAwesomeThemeComponent from "./toggle";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <div className="hero-content text-center text-white text-center-content">
           <div className="max-w-lg mt-44">
             <h1 className="mb-5 text-5xl font-bold rosario ">Maha Lakshmi Lottery</h1>
+            <MyAwesomeThemeComponent />
             <Link href={''} className="btn btn-primary rounded-full">See Result</Link>
           </div>
         </div>
@@ -38,11 +40,11 @@ export default function Home() {
             {/* head */}
             <thead>
               <tr className="md:text-2xl">
-                <th className="max-sm:py-1 max-sm:px-0 max-sm:text-xs border bg-accent text-neutral  text-center">Sno.</th>
-                <th className="max-sm:py-1 max-sm:px-0 max-sm:text-xs border bg-accent text-neutral text-center">Game</th>
-                <th className="max-sm:py-1 max-sm:px-0 max-sm:text-xs border bg-accent text-neutral text-center">Time</th>
-                <th className="max-sm:py-1 max-sm:px-0 max-sm:text-xs border bg-accent text-neutral text-center">Old</th>
-                <th className="max-sm:py-1 max-sm:px-0 max-sm:text-xs border bg-accent text-neutral text-center">New</th>
+                <th className="max-sm:py-1 max-sm:px-0 max-sm:text-xs border bg-accent   text-center">Sno.</th>
+                <th className="max-sm:py-1 max-sm:px-0 max-sm:text-xs border bg-accent  text-center">Game</th>
+                <th className="max-sm:py-1 max-sm:px-0 max-sm:text-xs border bg-accent  text-center">Time</th>
+                <th className="max-sm:py-1 max-sm:px-0 max-sm:text-xs border bg-accent  text-center">Old</th>
+                <th className="max-sm:py-1 max-sm:px-0 max-sm:text-xs border bg-accent  text-center">New</th>
               </tr>
             </thead>
             <tbody>
@@ -73,30 +75,30 @@ export default function Home() {
             <thead>
               <tr>
                 <th className="bg-primary text-center text-white">Date</th>
-                <th className="border bg-accent text-neutral  text-center">01:00 <br />AM</th>
-                <th className="border bg-accent text-neutral text-center">02:00<br />AM</th>
-                <th className="border bg-accent text-neutral text-center">03:00<br />AM</th>
-                <th className="border bg-accent text-neutral text-center">04:00<br />AM</th>
-                <th className="border bg-accent text-neutral text-center">05:00<br />AM</th>
-                <th className="border bg-accent text-neutral text-center">06:00<br />AM</th>
-                <th className="border bg-accent text-neutral text-center">07:00<br />AM</th>
-                <th className="border bg-accent text-neutral text-center">08:00<br />AM</th>
-                <th className="border bg-accent text-neutral text-center">09:00<br />AM</th>
-                <th className="border bg-accent text-neutral text-center">10:00<br />AM</th>
-                <th className="border bg-accent text-neutral text-center">11:00<br />AM</th>
-                <th className="border bg-accent text-neutral text-center">12:00<br />PM</th>
-                <th className="border bg-accent text-neutral text-center">01:00<br />PM</th>
-                <th className="border bg-accent text-neutral text-center">02:00<br />PM</th>
-                <th className="border bg-accent text-neutral text-center">03:00<br />PM</th>
-                <th className="border bg-accent text-neutral text-center">04:00<br />PM</th>
-                <th className="border bg-accent text-neutral text-center">05:00<br />PM</th>
-                <th className="border bg-accent text-neutral text-center">06:00<br />PM</th>
-                <th className="border bg-accent text-neutral text-center">07:00<br />PM</th>
-                <th className="border bg-accent text-neutral text-center">08:00<br />PM</th>
-                <th className="border bg-accent text-neutral text-center">09:00<br />PM</th>
-                <th className="border bg-accent text-neutral text-center">10:00<br />PM</th>
-                <th className="border bg-accent text-neutral text-center">11:00<br />PM</th>
-                <th className="border bg-accent text-neutral text-center">12:00 <br />AM</th>
+                <th className="border bg-accent   text-center">01:00 <br />AM</th>
+                <th className="border bg-accent  text-center">02:00<br />AM</th>
+                <th className="border bg-accent  text-center">03:00<br />AM</th>
+                <th className="border bg-accent  text-center">04:00<br />AM</th>
+                <th className="border bg-accent  text-center">05:00<br />AM</th>
+                <th className="border bg-accent  text-center">06:00<br />AM</th>
+                <th className="border bg-accent  text-center">07:00<br />AM</th>
+                <th className="border bg-accent  text-center">08:00<br />AM</th>
+                <th className="border bg-accent  text-center">09:00<br />AM</th>
+                <th className="border bg-accent  text-center">10:00<br />AM</th>
+                <th className="border bg-accent  text-center">11:00<br />AM</th>
+                <th className="border bg-accent  text-center">12:00<br />PM</th>
+                <th className="border bg-accent  text-center">01:00<br />PM</th>
+                <th className="border bg-accent  text-center">02:00<br />PM</th>
+                <th className="border bg-accent  text-center">03:00<br />PM</th>
+                <th className="border bg-accent  text-center">04:00<br />PM</th>
+                <th className="border bg-accent  text-center">05:00<br />PM</th>
+                <th className="border bg-accent  text-center">06:00<br />PM</th>
+                <th className="border bg-accent  text-center">07:00<br />PM</th>
+                <th className="border bg-accent  text-center">08:00<br />PM</th>
+                <th className="border bg-accent  text-center">09:00<br />PM</th>
+                <th className="border bg-accent  text-center">10:00<br />PM</th>
+                <th className="border bg-accent  text-center">11:00<br />PM</th>
+                <th className="border bg-accent  text-center">12:00 <br />AM</th>
               </tr>
             </thead>
             <tbody>
@@ -104,7 +106,7 @@ export default function Home() {
                 loop2.map((l, i) => (
 
                   <tr key={i} className="hover">
-                    <th className="border  bg-accent text-neutral  text-center">{l + 1}/03/2024</th>
+                    <th className="border  bg-accent  text-center text-">{l + 1}/03/2024</th>
                     {
                       loop1.map((list, i) => (
                         <td key={i} className="border text-center border-primary">54</td>
