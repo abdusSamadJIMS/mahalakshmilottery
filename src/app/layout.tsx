@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Rosario } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const rosario = Rosario({
+  weight: ['700', '600', '400', '500', '300'],
+  variable: "--rosario-font",
+  subsets: ['latin', 'vietnamese'],
+
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +21,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" data-theme="fantasy">
+      <body className={`${inter.className} ${rosario.variable}`}>{children}</body>
     </html>
   );
 }
