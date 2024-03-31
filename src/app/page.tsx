@@ -68,11 +68,11 @@ export default function Home() {
           <h2 className="mb-5 text-lg md:text-5xl font-bold rosario text-center text-accent">Maha Lakshmi Lottery Chart</h2>
         </div>
         <div className="overflow-x-auto">
-          <table className="table table-xs">
+          <table className="table table-xs border">
             {/* head */}
             <thead>
               <tr>
-                <th className="">Date</th>
+                <th className="bg-primary text-center text-white">Date</th>
                 <th className="border bg-accent text-neutral  text-center">01:00 <br />AM</th>
                 <th className="border bg-accent text-neutral text-center">02:00<br />AM</th>
                 <th className="border bg-accent text-neutral text-center">03:00<br />AM</th>
@@ -104,10 +104,10 @@ export default function Home() {
                 loop2.map((l, i) => (
 
                   <tr key={i} className="hover">
-                    <th className="border bg-accent text-neutral  text-center">{l + 1}</th>
+                    <th className="border  bg-accent text-neutral  text-center">{l + 1}/03/2024</th>
                     {
                       loop1.map((list, i) => (
-                        <td key={i}>54</td>
+                        <td key={i} className="border text-center border-primary">54</td>
                       ))
                     }
                   </tr>
