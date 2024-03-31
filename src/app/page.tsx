@@ -8,6 +8,7 @@ export default function Home() {
   let loop2: number[] = [];
   for (let i = 0; i < 30; i++) {
     loop2.push(i)
+    let a = 0;
   }
   return (
     <main className="w-screen">
